@@ -9,3 +9,4 @@ This repository contains various **design patterns** used in **software engineer
 - Optional
 - Composite
 - Builder
+- Template
