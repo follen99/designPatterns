@@ -8,3 +8,4 @@ This repository contains various **design patterns** used in **software engineer
 - Observer
 - Optional
 - Composite
+- Builder
