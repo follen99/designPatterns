@@ -10,3 +10,4 @@ This repository contains various **design patterns** used in **software engineer
 - Composite
 - Builder
 - Template
+- Iterator
