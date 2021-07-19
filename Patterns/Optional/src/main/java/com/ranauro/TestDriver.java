@@ -15,8 +15,16 @@ public class TestDriver {
          * altrimenti uno vuoto*/
         books.add(new Book(2,"titolo libro"));
 
+        /**
+        OLD
         if (books.getBookById(2).isEmpty()){
             System.out.println("no book found");
-        }else System.out.println("book found");
+        }else System.out.println("book found");*/
+        
+        try{
+            System.out.println(books.getById(2).orElseThrow().getTitle();
+        }catch(Exception e){
+            System.out.println("Book not found");
+        }
     }
 }
